@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290.18 335.07">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: none;
+      stroke: #64FFDA;
+      stroke-miterlimit: 10;
+      stroke-width: 20px;
+      }
+
+      .cls-2 {
+      fill: #64FFDA;
+      font-family: Segoe UI Emoji, 'Regular';
+      font-size: 150px;
+      font-weight: 550
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" fill="#64FFDA" points="5 86.65 145.09 5.77 285.18 86.65 285.18 248.41 145.09 329.29 5 248.41 5 86.65"/>
+  <text class="cls-2" color="#64FFDA" transform="translate(96.00 220.59)"><tspan x="0" y="0">A</tspan></text>
+</svg>
