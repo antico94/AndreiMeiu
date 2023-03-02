@@ -1,0 +1,54 @@
+.socialContainer {
+    width: 50px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logoIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.linkedIn {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line {
+    width: 1px;
+    height: 100%;
+    background-color: var(--darkGrey)
+}
+
+
+.githubSvg {
+    width: 24px;
+    height: 24px;
+}
+
+.linkedInSvg {
+    width: 24px;
+    height: 24px;
+}

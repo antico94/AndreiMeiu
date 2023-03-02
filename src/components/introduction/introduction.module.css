@@ -1,0 +1,81 @@
+.introductionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.introduction {
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.presentMeContainer {
+
+}
+
+.presentMeText {
+    font-family: var(--mono-font);
+    color: var(--accentColor);
+    font-size: 18px;
+}
+
+.nameContainer {
+}
+
+.nameText {
+    margin: 0;
+    font-family: var(--cablibreFont);
+    font-size: 65px;
+    color: var(--lightGrey);
+    line-height: 1.1;
+}
+
+.iDoContainer {
+}
+
+.iDoText {
+    font-family: var(--cablibreFont);
+    font-size: 65px;
+    color: var(--darkGrey);
+    line-height: 1.1;
+    margin: 0 0 40px;
+}
+
+.descriptionContainer {
+    width: 550px;
+}
+
+.descriptionText {
+    line-height: 1.3;
+    color: var(--darkGrey);
+    font-family: var(--cablibreFont);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 55px;;
+}
+
+.customButtonContainer{
+
+}
+
+.customButton {
+    width: 230px;
+    height: 55px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #64FFDA;
+    color: #64FFDA;
+    font-family: var(--mono-font);
+    font-size: 15px;
+}
+
+
+.customButton:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    cursor: pointer;
+}

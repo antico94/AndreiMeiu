@@ -1,0 +1,46 @@
+.mailContainer {
+    width: 50px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.mailAddress {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    color: var(--darkGrey);
+    font-family: var(--mono-font);
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 25px;
+    text-decoration: none;
+    margin-left: 2px;
+
+}
+
+.mailContainer:hover .mailAddress{
+    color: var(--accentColor);
+}
+
+.mailContainer:hover .line {
+    background-color: var(--accentColor);
+}
+
+.line {
+    width: 1px;
+    height: 100%;
+    background-color: var(--darkGrey);
+}
+
+

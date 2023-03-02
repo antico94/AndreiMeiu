@@ -1,15 +1,20 @@
-import Meiu from './assets/me.jpg'
 import './App.css';
+import Loader from "./components/loader/loader";
+import Header from "./components/header/header";
+import Introduction from "./components/introduction/introduction";
+import Social from "./components/social/social";
+import Mail from "./components/mail/mail";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hire Me!</h1>
-        <img src={Meiu} alt='eu'/>
-        <h3>Everybody say: Andrei very good. Very hardworking, he make only good job.</h3>
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            {/*<Loader/>*/}
+            <Introduction/>
+            <Social/>
+            <Mail/>
+        </div>
+    );
 }
 
 export default App;

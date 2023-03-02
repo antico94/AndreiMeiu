@@ -1,0 +1,69 @@
+.header {
+    height: 100px;
+    width: calc(100vw - 100px);
+    padding: 0 50px 0 50px;
+    position: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoSvg {
+    height: 40px;
+    width: 40px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 520px;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+}
+
+.linkPreTitle {
+    color: #64FFDA;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.linkTitle {
+    color: #ccd6f6;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 14px;
+}
+
+.resumeButton {
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #64FFDA;
+    color: #64FFDA;
+}
+
+.resumeButton:hover{
+    background-color: rgba(100, 255, 218, 0.1);
+    cursor: pointer;
+}
