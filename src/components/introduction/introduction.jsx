@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './introduction.module.css'
 
 const Introduction = () => {
+    const handleButtonClick = () => {
+        window.open('https://github.com/antico94', '_blank');
+    };
     return (
         <div className={styles.introductionContainer}>
             <div className={styles.introduction}>
@@ -20,7 +23,7 @@ const Introduction = () => {
                     </p>
                 </div>
                 <div className={styles.customButtonContainer}>
-                    <button className={styles.customButton}>
+                    <button className={styles.customButton} onClick={handleButtonClick}>
                         Check out my GitHub!
                     </button>
                 </div>

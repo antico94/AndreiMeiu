@@ -1,5 +1,5 @@
 :root {
-  --mono-font: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+  --monoFont: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
   --cablibreFont: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
   --accentColor: #64FFDA;
   --lightGrey: #ccd6f6;
@@ -9,7 +9,7 @@
 
 
 .App {
-  background: rgb(11,25,47);
+  background: var(--navyBlue);
   overflow-x: hidden;
 }
 
@@ -36,4 +36,3 @@ body {
     transform: scale(1);
   }
 }
-

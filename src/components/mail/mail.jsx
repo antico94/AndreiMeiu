@@ -13,7 +13,7 @@ const Mail = () => {
             setMail(
                 mail.split("")
                     .map((letter, index) => {
-                        if (index < iterations){
+                        if (index < iterations) {
                             return realEmail[index]
                         }
 
@@ -33,6 +33,7 @@ const Mail = () => {
                target="_blank">{mail}</a>
             <div className={styles.line}></div>
         </div>
+
     );
 };
 

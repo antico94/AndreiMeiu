@@ -1,0 +1,142 @@
+.aboutContainer {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 100px;
+}
+
+.about {
+    height: 100%;
+    width: calc(100vw - 200px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    right: 5vw;
+}
+
+
+.aboutText{
+
+}
+
+
+
+.about .title {
+    width: 550px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about .title span {
+    font-size: 23px;
+    font-family: var(--monoFont);
+    color: var(--accentColor);
+    display: inline-block !important;
+    margin-right: 5px;
+
+}
+
+.about .title h1 {
+    font-size: 27px;
+    font-family: var(--cablibreFont);
+    display: inline-block !important;
+    color: var(--lightGrey);
+}
+
+
+.line {
+    flex: 1;
+    height: 1px;
+    margin: 20px;
+}
+
+
+.line::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    opacity: 10%;
+    background-color: var(--lightGrey);
+}
+
+
+.descriptionContainer {
+    width: 550px;
+    color: var(--darkGrey);
+    font-family: var(--cablibreFont);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 400px));
+    grid-gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: var(--monoFont);
+    font-size: 14px;
+    cursor: default;
+}
+
+li{
+}
+
+li:before{
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accentColor);
+    font-size: 18px;
+    line-height: 12px;
+    top: 3px;
+}
+
+
+.img {
+    position: relative;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(500%);
+    border-radius: 5px;
+}
+
+.photoWrapper{
+    height: 400px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 50px;
+    background-color: rgba(100,255,218, 0.5);
+}
+
+.highlight{
+    color: #64FFDA;
+    display: inline-block;
+}
+
+.photoWrapper:before{
+    content: "";
+    position: absolute;
+    border: 2px solid var(--accentColor);
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.photoWrapper:hover:before{
+    top: 10px;
+    left: 10px;
+}

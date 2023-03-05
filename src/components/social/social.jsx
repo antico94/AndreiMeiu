@@ -5,7 +5,7 @@ const Social = () => {
     return (
         <div className={styles.socialContainer}>
             <div className={styles.github}>
-                <a href="https://www.instagram.com/antico94">
+                <a href="https://www.github.com/antico94">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
