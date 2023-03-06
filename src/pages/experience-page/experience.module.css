@@ -1,0 +1,199 @@
+.experienceContainer {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.experienceContainer .title {
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.experienceContainer .title span {
+    font-size: 23px;
+    font-family: var(--monoFont);
+    color: var(--accentColor);
+    display: inline-block !important;
+    margin-right: 5px;
+
+}
+
+.experienceContainer .title h1 {
+    font-size: 27px;
+    font-family: var(--cablibreFont);
+    display: inline-block !important;
+    color: var(--lightGrey);
+}
+
+
+.experienceContainer .line {
+    flex: 1;
+    height: 1px;
+    margin: 20px;
+}
+
+
+.line::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    opacity: 10%;
+    background-color: var(--lightGrey);
+}
+
+.content {
+    /*background-color: rgba(255, 0, 0, 0.2);*/
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.verticalLine {
+    height: 100%;
+    width: 0;
+    border: 1px solid var(--lightGrey);
+    opacity: 30%;
+}
+
+
+.companyDiv {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+}
+
+.companyDiv h1{
+    padding-top: 3px;
+}
+
+.companyDiv:hover {
+    background-color: #112140
+}
+
+.companyDiv:hover h1{
+    color: var(--accentColor);
+}
+
+
+.companyText {
+    font-family: var(--monoFont);
+    font-size: 14px;
+    color: var(--darkGrey);
+    height: 20px;
+    margin-left: 20px;
+    font-weight: 200;
+}
+
+.companyDiv:before {
+    content: "";
+    border-left: 1px solid var(--darkGrey);
+    position: absolute;
+    height: 45px;
+    overflow: visible;
+    border-radius: 5px;
+}
+
+.companyDiv:hover:before {
+    content: "";
+    border-left: 3px solid var(--accentColor);
+    position: absolute;
+    height: 40px;
+    margin: -1px;
+    overflow: visible;
+}
+
+.experience {
+    margin-left: 20px;
+    width: 550px;
+    height: 100%;
+    position: relative;
+}
+
+.subTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 19px;
+    font-family: var(--cablibreFont);
+    margin: 0;
+    height: 40px;
+    line-height: 28.6px;
+    font-weight: 500;
+}
+
+
+.jobTitle {
+    color: var(--lightGrey);
+    margin: 0;
+    margin-right: 5px;
+}
+
+.companyName {
+    color: var(--accentColor);
+    margin: 0;
+}
+
+.jobPeriod {
+    margin: 0;
+    font-family: var(--monoFont);
+    font-size: 14px;
+    color: var(--darkGrey);
+}
+
+.jobsDone p{
+    font-family: var(--cablibreFont);
+    font-size: 15px;
+    color: #8892b0;
+    line-height: 23.4px;
+}
+
+
+.jobsDone {
+    display: grid;
+    grid-gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.jobsDone li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-family: var(--cablibreFont);
+    font-size: 15px;
+    cursor: default;
+    color: var(--darkGrey);
+    line-height: 1.3;
+}
+
+
+.jobsDone li:before{
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accentColor);
+    font-size: 18px;
+    line-height: 12px;
+    top: 3px;
+}
+
+
+.active:before{
+    content: "";
+    border-left: 3px solid var(--accentColor);
+    position: absolute;
+    height: 40px;
+    margin: -1px;
+    overflow: visible;
+}

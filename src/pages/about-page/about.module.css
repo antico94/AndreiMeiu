@@ -15,53 +15,6 @@
 }
 
 
-.aboutText{
-
-}
-
-
-
-.about .title {
-    width: 550px;
-    display: flex;
-    align-items: center;
-
-}
-
-.about .title span {
-    font-size: 23px;
-    font-family: var(--monoFont);
-    color: var(--accentColor);
-    display: inline-block !important;
-    margin-right: 5px;
-
-}
-
-.about .title h1 {
-    font-size: 27px;
-    font-family: var(--cablibreFont);
-    display: inline-block !important;
-    color: var(--lightGrey);
-}
-
-
-.line {
-    flex: 1;
-    height: 1px;
-    margin: 20px;
-}
-
-
-.line::before {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 100%;
-    opacity: 10%;
-    background-color: var(--lightGrey);
-}
-
-
 .descriptionContainer {
     width: 550px;
     color: var(--darkGrey);
@@ -71,7 +24,7 @@
 }
 
 
-ul {
+.skillsList {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 400px));
     grid-gap: 0 10px;
@@ -81,7 +34,7 @@ ul {
     list-style: none;
 }
 
-li {
+.skillsList li {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -90,10 +43,8 @@ li {
     cursor: default;
 }
 
-li{
-}
 
-li:before{
+.skillsList li:before{
     content: '▹';
     position: absolute;
     left: 0;
@@ -107,7 +58,7 @@ li:before{
 .img {
     position: relative;
     mix-blend-mode: multiply;
-    filter: grayscale(100%) contrast(500%);
+    filter: grayscale(100%);
     border-radius: 5px;
 }
 
@@ -116,7 +67,7 @@ li:before{
     position: relative;
     border-radius: 5px;
     margin-left: 50px;
-    background-color: rgba(100,255,218, 0.5);
+    background-color: rgba(100,255,218, 1);
 }
 
 .highlight{

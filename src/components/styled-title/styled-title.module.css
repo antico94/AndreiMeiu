@@ -1,0 +1,37 @@
+.styledTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.styledTitle span {
+    font-size: 23px;
+    font-family: var(--monoFont);
+    color: var(--accentColor);
+    display: inline-block !important;
+    margin-right: 5px;
+
+}
+
+.styledTitle h1 {
+    font-size: 27px;
+    font-family: var(--cablibreFont);
+    display: inline-block !important;
+    color: var(--lightGrey);
+}
+
+.styledLine {
+    flex: 1;
+    height: 1px;
+    margin: 20px;
+}
+
+
+.styledLine::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    opacity: 10%;
+    background-color: var(--lightGrey);
+}

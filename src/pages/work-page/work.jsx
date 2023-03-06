@@ -1,0 +1,1 @@
+import styles from './work.module.css'

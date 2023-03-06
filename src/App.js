@@ -6,6 +6,7 @@ import LandingPage from "./pages/landing-page/landing-page";
 import AboutPage from "./pages/about-page/about";
 import Social from "./components/social/social";
 import Mail from "./components/mail/mail";
+import Experience from "./pages/experience-page/experience";
 
 function App() {
     const [loaderCompleted, setLoaderCompleted] = useState(false);
@@ -28,6 +29,7 @@ function App() {
                     <Mail/>
                     <LandingPage/>
                     <AboutPage/>
+                    <Experience/>
                 </>
             )}
         </div>
