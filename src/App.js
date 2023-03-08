@@ -7,6 +7,7 @@ import AboutPage from "./pages/about-page/about";
 import Social from "./components/social/social";
 import Mail from "./components/mail/mail";
 import Experience from "./pages/experience-page/experience";
+import Work from "./pages/work-page/work";
 
 function App() {
     const [loaderCompleted, setLoaderCompleted] = useState(false);
@@ -30,6 +31,7 @@ function App() {
                     <LandingPage/>
                     <AboutPage/>
                     <Experience/>
+                    <Work/>
                 </>
             )}
         </div>
