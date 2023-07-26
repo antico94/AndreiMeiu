@@ -1,5 +1,5 @@
 .header {
-    height: 100px;
+    height: 60px;
     width: calc(100vw - 100px);
     padding: 0 50px 0 50px;
     position: fixed;
@@ -35,6 +35,7 @@
     width: 520px;
 }
 
+
 .textContainer {
     display: flex;
     justify-content: center;
@@ -42,6 +43,8 @@
     align-items: center;
     cursor: pointer;
     height: 40px;
+    text-decoration: none;
+
 }
 
 .linkPreTitle {
@@ -69,4 +72,9 @@
 .resumeButton:hover{
     background-color: rgba(100, 255, 218, 0.1);
     cursor: pointer;
+}
+
+.navBlurred {
+    backdrop-filter: blur(3px); /* Adjust the blur amount as needed */
+    transition: backdrop-filter 0.3s, background-color 0.3s; /* Add transitions for smooth animation */
 }

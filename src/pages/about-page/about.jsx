@@ -21,7 +21,7 @@ const About = () => {
     }
 
     return (
-        <div className={styles.aboutContainer}>
+        <div className={styles.aboutContainer} id='about'>
             <div className={styles.about}>
                 <div className={styles.aboutText}>
                     <StyledTitle number={1} text={"About me"}/>

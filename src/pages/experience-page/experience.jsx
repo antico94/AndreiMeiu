@@ -11,7 +11,7 @@ const Experience = () => {
     };
 
     return (
-        <div className={styles.experienceContainer}>
+        <div className={styles.experienceContainer} id='experience'>
             <div style={{width: "700px"}}>
                 <StyledTitle number={2} text={"Where I've Worked"}/>
             </div>

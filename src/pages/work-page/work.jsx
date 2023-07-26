@@ -5,7 +5,7 @@ import Construction from "../../components/under-construction/construction";
 
 const Work = () => {
     return (
-        <div className={styles.workContainer}>
+        <div className={styles.workContainer} id='work'>
             <div style={{width: "550px"}}>
                 <StyledTitle number={3} text={"Some Things I've Built"}/>
                 <div className={styles.under}>

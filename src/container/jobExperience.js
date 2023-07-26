@@ -1,5 +1,14 @@
 const jobExperience = [
     {
+        jobTitle: "Software Developer",
+        jobPeriod: "April 2023 - Current",
+        company: "Suvoda",
+        tasks: [
+            "Developed and maintained code for in-house and client websites primarily using .NET, C#, SQL",
+            "Worked closely with management team to develop, document, and manage an app designed for tracking and managing customer requests and issues, as well as tools for analyzing data and generating reports.",
+            "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis"]
+    },
+    {
         jobTitle: "Full Stack Developer",
         jobPeriod: "September 2022 - March 2023",
         company: "UST",
